@@ -141,7 +141,7 @@ public class IntercomPlugin extends Plugin {
 
     @PluginMethod
     public void hideMessenger(PluginCall call) {
-        Intercom.client().hideIntercom();
+        // Intercom.client().hideIntercom();
         call.resolve();
     }
 
